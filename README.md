@@ -4,7 +4,7 @@ A modern, minimalist portfolio website for a Data Analyst, featuring a GitHub-in
 
 ## 🚀 Live Demo
 Once deployed via GitHub Pages, you can view the live site at:
-`https://Sunitatahawan.github.io/A-nita-simple-portfolio/`
+`https://Sunitatahawan.github.io/gemini-bc-projects/`
 
 ## ✨ Features
 - **Dark/Light Mode**: User-selectable theme with local storage persistence.
@@ -19,16 +19,17 @@ Once deployed via GitHub Pages, you can view the live site at:
 - **Google Fonts**: JetBrains Mono.
 
 ## 📂 Project Structure
-- `index.html`: The main structure and content.
-- `style.css`: Styling, including dark/light theme variables.
-- `script.js`: Theme toggle functionality.
+- `docs/index.html`: The main structure and content.
+- `docs/style.css`: Styling, including dark/light theme variables.
+- `docs/script.js`: Theme toggle functionality.
+- `plan_saves/our_plan.md`: Project construction plan.
 
 ## 🔧 Local Development
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Sunitatahawan/A-nita-simple-portfolio.git
+   git clone https://github.com/Sunitatahawan/gemini-bc-projects.git
    ```
-2. Open `index.html` in your browser.
+2. Open `docs/index.html` in your browser.
 
 ## 📝 License
 This project is open-source and available under the MIT License.
