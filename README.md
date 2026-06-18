@@ -1,34 +1,49 @@
 # Sunita A-nita | Data Analyst Portfolio
 
-A modern, minimalist portfolio website for a Data Analyst, featuring a GitHub-inspired dark theme and responsive design.
+A modern, minimalist portfolio website designed for a Data Analyst. This project features a clean, developer-centric aesthetic inspired by GitHub's dark theme, with a focus on showcasing data analysis and machine learning projects.
 
 ## 🚀 Live Demo
-Once deployed via GitHub Pages, you can view the live site at:
-`https://Sunitatahawan.github.io/A-nita-simple-portfolio/`
+The portfolio is optimized for GitHub Pages. Once deployed, you can view the live site at:
+`https://anitacode-space.github.io/A-nita-simple-portfolio/`
 
-## ✨ Features
-- **Dark/Light Mode**: User-selectable theme with local storage persistence.
-- **Responsive Layout**: Built with CSS Grid and Flexbox for seamless viewing on all devices.
-- **Data Projects**: Showcases key data analysis projects with interactive elements.
-- **Developer Aesthetic**: Uses JetBrains Mono typography for a clean, technical look.
+## ✨ Key Features
+- **Modern Dark Theme**: A GitHub-inspired palette (`#0d1117`) for a professional developer feel.
+- **Theme Toggle**: Switch between Dark and Light modes with persistent user preference (via LocalStorage).
+- **Responsive Design**: Fully responsive layout built with CSS Grid and Flexbox, ensuring a seamless experience across desktop and mobile devices.
+- **Project Showcases**: Highlighting key data science projects:
+  - **Telco Churn Modeling**: Predictive modeling using Random Forest and Logistic Regression.
+  - **Stock Price Regression**: Time-series analysis and LSTM-based price prediction.
+  - **Customer Segmentation**: K-Means and Hierarchical clustering for RFM profiling.
+- **Technical Typography**: Uses **JetBrains Mono** for a crisp, technical presentation.
 
 ## 🛠️ Built With
-- **HTML5**: Semantic structure.
-- **CSS3**: Custom variables for theming and responsive grid layout.
-- **JavaScript**: Theme switching logic and minor interactivity.
-- **Google Fonts**: JetBrains Mono.
+- **HTML5**: Semantic and accessible markup.
+- **CSS3**: Custom properties (variables) for dynamic theming and responsive grid layouts.
+- **JavaScript (ES6+)**: Lightweight logic for theme switching and interactivity.
+- **Google Fonts**: Integration of the JetBrains Mono typeface.
 
 ## 📂 Project Structure
-- `index.html`: The main structure and content.
-- `style.css`: Styling, including dark/light theme variables.
-- `script.js`: Theme toggle functionality.
+```text
+├── docs/
+│   ├── index.html    # Main portfolio structure
+│   ├── style.css     # Theming, layout, and responsive styles
+│   └── script.js     # Theme toggle and UI logic
+├── plan_saves/       # Project planning and roadmap documentation
+├── README.md         # Project documentation (this file)
+└── .gitignore        # Standard git ignore rules
+```
 
-## 🔧 Local Development
+## 🔧 Local Setup
+To run this project locally:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Sunitatahawan/A-nita-simple-portfolio.git
+   git clone https://github.com/anitacode-space/A-nita-simple-portfolio.git
    ```
-2. Open `index.html` in your browser.
+2. Navigate to the project directory:
+   ```bash
+   cd A-nita-simple-portfolio
+   ```
+3. Open `docs/index.html` in any modern web browser.
 
 ## 📝 License
-This project is open-source and available under the MIT License.
+This project is open-source and available under the [MIT License](LICENSE).
